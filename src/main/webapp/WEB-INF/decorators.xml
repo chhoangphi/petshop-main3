@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+   <decorator name="trang-chu" page="customer.jsp">
+       <pattern>/trang-chu</pattern>
+       <pattern>/*</pattern>
+    </decorator>
+    <decorator name="san-pham" page="product.jsp">
+       <pattern>/san-pham/*</pattern>
+    </decorator>
+      <decorator name="category" page="product_category.jsp">
+       <pattern>/san-pham/item.*/dtype.*/*</pattern>
+    </decorator>  
+</decorators>
